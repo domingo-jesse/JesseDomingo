@@ -41,7 +41,38 @@
                 <!-- Masthead Avatar Image-->
                 <img class="masthead-avatar mb-5" src="assets/img/Profile.svg" alt="..." />
                 <!-- Masthead Heading-->
-                <h1 class="masthead-heading text-uppercase mb-0">Jesse Domingo</h1>
+                
+                
+                
+                <h1 class="masthead-heading text-uppercase mb-0" id="add" onClick="typeWriter()" onmouseover="change()" >Jesse Domingo</h1>
+                
+
+<script>
+function clicked(){
+	document.getElementById("elem").innerHTML = "Clicked"
+}
+function change() {
+  document.getElementById("add").click();
+}
+</script>
+
+
+<p id="demo"></p>
+
+<script>
+var i = 0;
+var txt = 'Software Engineer - Enterpreneuer - Dog Dad';
+var speed = 50;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
+                
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
@@ -49,7 +80,7 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">Software Engineer - Enterpreneuer - Dog Dad</p>
+               <!-- <p class="masthead-subheading font-weight-light mb-0">Software Engineer - Enterpreneuer - Dog Dad</p>-->
             </div>
             
             <div class="container">
@@ -86,7 +117,7 @@ In my free time, I run my own business called The Cryptic Cube. I create and mai
                 <!-- Portfolio Grid Items-->
                 <div class="row justify-content-center">
                     <!-- Portfolio Item 1-->
-                    <div class="col-md-6 col-lg-4">
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
@@ -95,17 +126,17 @@ In my free time, I run my own business called The Cryptic Cube. I create and mai
                         </div>
                     </div>
                     <!-- Portfolio Item 2-->
-                    <div class="col-md-6 col-lg-4">
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/Fast.png" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/Fast_E.png" alt="..." />
                         </div>
                     </div>
                     <!-- Portfolio Item 3-->
                     
-                    <div class="col-md-6 col-lg-4">
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
@@ -154,14 +185,13 @@ In my free time, I run my own business called The Cryptic Cube. I create and mai
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/submarine.png" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/Travel.jpg" alt="..." />
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         
-        </section>
         <!-- Footer-->
         <footer class="footer text-center">
             <div class="container">
@@ -202,7 +232,7 @@ In my free time, I run my own business called The Cryptic Cube. I create and mai
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">The Cryptic Cube</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Olive AI</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -212,8 +242,10 @@ In my free time, I run my own business called The Cryptic Cube. I create and mai
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Olive_Ai.jpeg" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <a href="https://www.thecrypticcube.com/">Cryptic cube website</a>
-                                    <p class="mb-4"> Description here!</p>
+                                    <p class="mb-4">I have been serving as a Technical Support Analyst in the prior authorization space at Olive AI since January 2022, contributing significantly to ensuring exceptional customer interactions. My responsibilities extend beyond conventional customer support, as I collaborate closely with software developers to meticulously diagnose and address bugs and issues within our software offerings. This multifaceted role demands a balanced blend of analytical and communication skills, enabling me to bridge the gap between end-users and developers. My experience in this dynamic environment has refined my capacity to dissect intricate technical challenges and deliver effective resolutions.</p>
+                                    
+                                     <p> Olive AI Website: <a href="https://oliveai.com/">Olive AI</a> </p>
+                                     
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Close Window
@@ -235,7 +267,7 @@ In my free time, I run my own business called The Cryptic Cube. I create and mai
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tasty Cake</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Fast Enterprieses</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -243,9 +275,13 @@ In my free time, I run my own business called The Cryptic Cube. I create and mai
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Fast.png" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Fast_E.png" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4"> Description here!</p>
+                                    <p class="mb-4"> As a Software Implementation Consultant with FAST Enterprises in Louisville, KY (August 2019 - July 2020), I dove into the world of tax software, supporting government agencies with a range of tax types. Collaborating closely with the Louisville Metro Revenue Commission, I wore my detective hat to update, debug, and even sprinkle in new features based on the clients' wish list. When the Covid-19 Pandemic hit, I smoothly shifted gears to remote work, proving that nothing can stop good tech and teamwork.</p>
+                                    
+                                      <p> Fast Enterprises Website: <a href="/https://www.fastenterprises.com/">Fast Enterpirses </a> </p>
+                                      <p> Louisville Metro Tax System: <a href="https://emints.metrorevenue.org/"> Louisville Tax System </a> </p>
+                                      
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Close Window
@@ -267,7 +303,7 @@ In my free time, I run my own business called The Cryptic Cube. I create and mai
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Circus Tent</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Coding Profolio</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -277,7 +313,10 @@ In my free time, I run my own business called The Cryptic Cube. I create and mai
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/code.jpg" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4"> Description here!</p>
+                                    <p class="mb-4">Welcome to my coding portfolio! I'm passionate about bringing ideas to life through code and crafting digital solutions. In this section, you'll find a showcase of diverse projects I've worked on. These projects demonstrate my skills in coding, problem-solving, and creativity.</p>
+                                    
+                                    <p> GitHub Projects: <a href="https://github.com/domingo-jesse"> GitHub Porject 1 ( Will fill this in later)</a> </p>
+                                    
                                     <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/jesse-domingo/"><i class="fab fa-fw fa-square-github fa-bounce style=color:#243c64;"></i></a>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
@@ -300,7 +339,7 @@ In my free time, I run my own business called The Cryptic Cube. I create and mai
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Controller</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Rye the Corgi</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -308,9 +347,17 @@ In my free time, I run my own business called The Cryptic Cube. I create and mai
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Rye.png" alt="..." />
+                                    <img class="img-fluid rounded mb-5 " src="assets/img/portfolio/Rye.png" alt="..." />
+                                    <div class="container">
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4"> Description here!</p>
+                                    <p class="mb-4"> Meet Rye, the charismatic Corgi who's not just a four-legged friend but a social media sensation! With her own TikTok and Instagram accounts, Rye has captured the hearts of thousands with her adorable antics and boundless energy. From playful zoomies to heartwarming cuddles, she spreads joy wherever she goes. Rye embodies the qualities of loyalty, charm, and relatability, traits that showcase her ability to connect with a wide audience. Take a look at the socials below to join in on the fun and cuteness!</p>
+                                    <div class="grid justify-content-center">
+                                    
+                                    
+                                    <a class="btn my-1" href="https://www.tiktok.com/@corgirye"><i class="fab fa-tiktok fa-2xl"></i></a>
+                                    <a class="btn my-1" href="https://www.instagram.com/corgirye/"><i class="fab fa-instagram fa-2xl"></i></a>
+                                       </div>
+                                    </div>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Close Window
@@ -332,7 +379,7 @@ In my free time, I run my own business called The Cryptic Cube. I create and mai
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Locked Safe</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Escape Room</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -364,7 +411,7 @@ In my free time, I run my own business called The Cryptic Cube. I create and mai
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Submarine</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Traveler</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -372,41 +419,9 @@ In my free time, I run my own business called The Cryptic Cube. I create and mai
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Travel.jpg" alt="..." />
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-4"> Description here!</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 7-->
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Circus Tent</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/circus.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4"> Description here! </p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Close Window
