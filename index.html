@@ -44,34 +44,11 @@
                 
                 
                 
-                <h1 class="masthead-heading text-uppercase mb-0" id="add" onClick="typeWriter()" onmouseover="change()" >Jesse Domingo</h1>
+                <h1 class="masthead-heading text-uppercase mb-0 myDIV" >Jesse Domingo</h1>
+                <div class="hide">Software Engineer - Enterpreneuer - Dog Dad.</div>
+
                 
 
-<script>
-function clicked(){
-	document.getElementById("elem").innerHTML = "Clicked"
-}
-function change() {
-  document.getElementById("add").click();
-}
-</script>
-
-
-<p id="demo"></p>
-
-<script>
-var i = 0;
-var txt = 'Software Engineer - Enterpreneuer - Dog Dad';
-var speed = 50;
-
-function typeWriter() {
-  if (i < txt.length) {
-    document.getElementById("demo").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
-  }
-}
-</script>
                 
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
@@ -92,12 +69,12 @@ function typeWriter() {
 
 In my free time, I run my own business called The Cryptic Cube. I create and maintain Escape rooms, as well as run the advertising, and internal operations.</p></div>
                
-                <div class="text-center mt-4">
+                 <!--  <div class="text-center mt-4">
                     <a class="btn btn-xl btn-outline-light" href="assets/link/Jesse_Resume.pdf" download>
                         <i class="fas fa-download me-2"></i>
                         Download Resume
                     </a>
-                </div>
+                </div>-->
             </div>
             
         </header>
@@ -120,7 +97,7 @@ In my free time, I run my own business called The Cryptic Cube. I create and mai
                     <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                 <div class="portfolio-item-caption-content text-center text-white">Olive AI</div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/Olive_Ai.jpeg" alt="..." />
                         </div>
@@ -129,7 +106,7 @@ In my free time, I run my own business called The Cryptic Cube. I create and mai
                     <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white">Fast Enterpries</div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/Fast_E.png" alt="..." />
                         </div>
@@ -139,7 +116,7 @@ In my free time, I run my own business called The Cryptic Cube. I create and mai
                     <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white">Coding Profolio</div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/code.jpg" alt="..." />
                         </div>
@@ -165,7 +142,7 @@ In my free time, I run my own business called The Cryptic Cube. I create and mai
                     <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white">Rye the Corgi</div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/Rye.png" alt="..." />
                         </div>
@@ -174,7 +151,7 @@ In my free time, I run my own business called The Cryptic Cube. I create and mai
                     <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white">The Cryptic Cube</div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/CubeLogo.png" alt="..." />
                         </div>
@@ -183,7 +160,7 @@ In my free time, I run my own business called The Cryptic Cube. I create and mai
                     <div class="col-md-6 col-lg-4">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white">Traveler</div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/Travel.jpg" alt="..." />
                         </div>
@@ -191,6 +168,8 @@ In my free time, I run my own business called The Cryptic Cube. I create and mai
                 </div>
             </div>
         </section>
+        
+        
         
         <!-- Footer-->
         <footer class="footer text-center">
@@ -211,8 +190,8 @@ In my free time, I run my own business called The Cryptic Cube. I create and mai
                     <!-- Footer Social Icons-->
                     <div class="col-lg-4">
                         <h4 class="text-uppercase mb-4">Socials</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/jesse-domingo/"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/jesse.domingo.5/"><i class="fab fa-fw fa-facebook"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/jesse-domingo/" target="_blank"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/jesse.domingo.5/" target="_blank"><i class="fab fa-fw fa-facebook"></i></a>
                     </div>
                 </div>
             </div>
@@ -240,11 +219,11 @@ In my free time, I run my own business called The Cryptic Cube. I create and mai
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Olive_Ai.jpeg" alt="..." />
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/9Vf84z9KA6Y?si=l6Rmo2svj_ivIGA7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-4">I have been serving as a Technical Support Analyst in the prior authorization space at Olive AI since January 2022, contributing significantly to ensuring exceptional customer interactions. My responsibilities extend beyond conventional customer support, as I collaborate closely with software developers to meticulously diagnose and address bugs and issues within our software offerings. This multifaceted role demands a balanced blend of analytical and communication skills, enabling me to bridge the gap between end-users and developers. My experience in this dynamic environment has refined my capacity to dissect intricate technical challenges and deliver effective resolutions.</p>
                                     
-                                     <p> Olive AI Website: <a href="https://oliveai.com/">Olive AI</a> </p>
+                                     <p> Olive AI Website: <a href="https://oliveai.com/" target="_blank">Olive AI</a> </p>
                                      
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
@@ -279,8 +258,8 @@ In my free time, I run my own business called The Cryptic Cube. I create and mai
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-4"> As a Software Implementation Consultant with FAST Enterprises in Louisville, KY (August 2019 - July 2020), I dove into the world of tax software, supporting government agencies with a range of tax types. Collaborating closely with the Louisville Metro Revenue Commission, I wore my detective hat to update, debug, and even sprinkle in new features based on the clients' wish list. When the Covid-19 Pandemic hit, I smoothly shifted gears to remote work, proving that nothing can stop good tech and teamwork.</p>
                                     
-                                      <p> Fast Enterprises Website: <a href="/https://www.fastenterprises.com/">Fast Enterpirses </a> </p>
-                                      <p> Louisville Metro Tax System: <a href="https://emints.metrorevenue.org/"> Louisville Tax System </a> </p>
+                                      <p> Fast Enterprises Website: <a href="https://www.fastenterprises.com/" target="_blank">Fast Enterpirses </a> </p>
+                                      <p> Louisville Metro Tax System: <a href="https://emints.metrorevenue.org/" target="_blank"> Louisville Tax System </a> </p>
                                       
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
@@ -312,12 +291,16 @@ In my free time, I run my own business called The Cryptic Cube. I create and mai
                                     </div>
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/code.jpg" alt="..." />
+                                     <div class="container">
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-4">Welcome to my coding portfolio! I'm passionate about bringing ideas to life through code and crafting digital solutions. In this section, you'll find a showcase of diverse projects I've worked on. These projects demonstrate my skills in coding, problem-solving, and creativity.</p>
+                                    <p>Web app: DataDoggo:<a href="https://datadoggo.com" target="_blank"> DataDoggo</a> </p> 
+                                    <p>planned project 1:  <a href="https://github.com/domingo-jesse/PlantSim" target="_blank"> Plant Simulator </a></p>
+                                    <p>planned project 2:  <a href="https://github.com/domingo-jesse/CardGame" target="_blank"> card game to learn about networks </a></p>
+                                    <p>planned project 3:  <a href="https://google.com" target="_blank"> Genetics project with DNA </a></p>
+                                    <p> GitHub Projects: <a href="https://github.com/domingo-jesse" target="_blank"> GitHub Porject 1 ( Will fill this in later)</a> </p>
                                     
-                                    <p> GitHub Projects: <a href="https://github.com/domingo-jesse"> GitHub Porject 1 ( Will fill this in later)</a> </p>
-                                    
-                                    <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/jesse-domingo/"><i class="fab fa-fw fa-square-github fa-bounce style=color:#243c64;"></i></a>
+                                    <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/jesse-domingo/" target="_blank"><i class="fab fa-fw fa-square-github fa-bounce style=color:#243c64;"></i></a>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Close Window
@@ -329,6 +312,7 @@ In my free time, I run my own business called The Cryptic Cube. I create and mai
                 </div>
             </div>
         </div>
+    </div>
         <!-- Portfolio Modal 4-->
         <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
             <div class="modal-dialog modal-xl">
@@ -339,7 +323,7 @@ In my free time, I run my own business called The Cryptic Cube. I create and mai
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Rye the Corgi</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Escape Room</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -354,10 +338,9 @@ In my free time, I run my own business called The Cryptic Cube. I create and mai
                                     <div class="grid justify-content-center">
                                     
                                     
-                                    <a class="btn my-1" href="https://www.tiktok.com/@corgirye"><i class="fab fa-tiktok fa-2xl"></i></a>
-                                    <a class="btn my-1" href="https://www.instagram.com/corgirye/"><i class="fab fa-instagram fa-2xl"></i></a>
+                                    <a class="btn my-1" href="https://www.tiktok.com/@corgirye" target="_blank"><i class="fab fa-tiktok fa-2xl"></i></a>
+                                    <a class="btn my-1" href="https://www.instagram.com/corgirye/" target="_blank"><i class="fab fa-instagram fa-2xl"></i></a>
                                        </div>
-                                    </div>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Close Window
@@ -369,6 +352,7 @@ In my free time, I run my own business called The Cryptic Cube. I create and mai
                 </div>
             </div>
         </div>
+    </div>
         <!-- Portfolio Modal 5-->
         <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
             <div class="modal-dialog modal-xl">
@@ -388,8 +372,9 @@ In my free time, I run my own business called The Cryptic Cube. I create and mai
                                     </div>
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/CubeLogo.png" alt="..." />
+                                    <div class="container">
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4"> Description here!</p>
+                                    <p class="mb-4"> Since 2017, I've owned an immersive escape room business, where my passion for design and logical problem-solving intersect. Crafting intricate puzzles has honed my attention to detail and creative thinking. Beyond the puzzles, I've also embraced marketing, customer engagement, and financial management, gaining a comprehensive skill set as a business owner.</p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Close Window
@@ -401,6 +386,7 @@ In my free time, I run my own business called The Cryptic Cube. I create and mai
                 </div>
             </div>
         </div>
+    </div>
         <!-- Portfolio Modal 6-->
         <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
             <div class="modal-dialog modal-xl">
@@ -420,8 +406,9 @@ In my free time, I run my own business called The Cryptic Cube. I create and mai
                                     </div>
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Travel.jpg" alt="..." />
+                                    <div class="container">
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4"> Description here!</p>
+                                    <p class="mb-4"> Exploring new places and cultures has always been a passion of mine. I've been fortunate to visit 36 states and 18 countries so far, and my love for travel only continues to grow. From bustling cities to serene landscapes, each journey has enriched my perspective and created unforgettable memories. Join me as I share my travel experiences and celebrate the beauty of our diverse world.</p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Close Window
@@ -433,6 +420,8 @@ In my free time, I run my own business called The Cryptic Cube. I create and mai
                 </div>
             </div>
         </div>
+    </div>
+     
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
@@ -443,4 +432,6 @@ In my free time, I run my own business called The Cryptic Cube. I create and mai
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
+    
+    
 </html>
