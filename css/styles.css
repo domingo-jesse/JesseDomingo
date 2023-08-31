@@ -11103,7 +11103,10 @@ html {
   background-color: #1a252f;
 }
 
-.splide__slide img {
-  width: 100%;
-  height: auto;
+.carousel-inner>.item {
+    display: none;
+    position: relative;
+    -webkit-transition: 0s ease-in-out !important;
+    -o-transition: 0s ease-in-out !important;
+    transition: 0s ease-in-out !important;
 }
